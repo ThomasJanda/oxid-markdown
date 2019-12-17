@@ -1,4 +1,4 @@
-#Oxid markdown
+# Oxid markdown
 
 Module based on code of https://github.com/OXIDCookbook
 
@@ -7,9 +7,9 @@ Module based on code of https://github.com/OXIDCookbook
 Test if there is a README.md or README_#LANGABBR#.mb in the module folder. If yes, the system display the Markdown file 
 in the modules section as new tab. This module also display images if present in the markdown file.
 
-Module was created for Oxid 6.1
+![](settings1.png)
 
-This is the "README.md" file.
+Module was created for Oxid 6.1
 
 ## Install
 1. Copy files into following directory
@@ -29,3 +29,7 @@ This is the "README.md" file.
         composer dump-autoload
         
 4. Enable module in the oxid admin area, Extensions => Modules
+
+---
+
+Filename: README.md
