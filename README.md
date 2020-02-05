@@ -12,6 +12,7 @@ in the modules section as new tab. This module also display images if present in
 Module was created for Oxid 6.1
 
 ## Install
+
 1. Copy files into following directory
         
         source/modules/rs/markdown
@@ -24,11 +25,15 @@ Module was created for Oxid 6.1
             }
         },
 
-3. Refresh autoloader files with composer.
+3. Install dependencies 
+
+        composer require michelf/php-markdown
+
+4. Refresh autoloader files with composer.
 
         composer dump-autoload
         
-4. Enable module in the oxid admin area, Extensions => Modules
+5. Enable module in the oxid admin area, Extensions => Modules
 
 ---
 
