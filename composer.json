@@ -2,6 +2,7 @@
   "name": "rs/markdown",
   "description": "display readme.md in oxid admin",
   "type": "oxideshop-module",
+  "minimum-stability": "stable",
   "keywords": ["oxid", "modules", "eShop"],
   "homepage": "https://www.reisacher-software.de",
   "license": [
