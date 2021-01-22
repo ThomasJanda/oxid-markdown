@@ -9,9 +9,9 @@ in the modules section as new tab. This module also display images if present in
 
 ![](settings1.png)
 
-Module was created for Oxid 6.1
+Module was created for Oxid 6.1/6.2
 
-## Install
+## Install (manual)
 
 1. Copy files into following directory
         
@@ -34,6 +34,25 @@ Module was created for Oxid 6.1
         composer dump-autoload
         
 5. Enable module in the oxid admin area, Extensions => Modules
+
+6. Clear the language cache
+
+---
+
+## Install (via composer on Oxid 6.2)
+
+1. Open the teminal in you oxid root directory (the "source" folder is a subfolder there and a "composer.json" shoud be there)
+
+2. Execute following command within the terminal
+
+        composer config repositories.rs/markdown git https://github.com/ThomasJanda/oxid-markdown/
+        composer require rs/markdown:dev-master --update-no-dev --ignore-platform-reqs
+
+3. The installation script will now ask some question if you like to override existing files. Type always "n" for "No" and hit enter for confirmation. 
+
+4. Open the shop admin and enable module in the oxid admin area, Extensions => Modules
+
+5. Clear the language cache
 
 ---
 
